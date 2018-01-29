@@ -246,7 +246,13 @@
                     return _.filter(this.processedStores, ['z_coordinate', 2]);
                 },
                 allCategories() {
-                    return this..processedCategories;
+                    return this.processedCategories;
+                },
+                getMapDownload() {
+                    var repo = this.findRepoByName("maps").images;
+                    var map = _.filter(repo, function (o) { return o.id == "31625"; });
+                    var mapURL = "http://www.mallmaverick.com" + map[0].photo_url;
+                    return mapURL;
                 },
                 getStoreSource() {
                     var mall_json = {};
