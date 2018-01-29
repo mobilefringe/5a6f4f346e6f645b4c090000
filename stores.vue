@@ -237,7 +237,7 @@
                     return this.$store.getters.storesByCategoryName;
                 },
                 allStores() {
-                    return this.$store.getters.processedStores;
+                    return this.processedStores;
                 },
                 floor1Stores() {
                     return _.filter(this.allStores, ['z_coordinate', 1]);
