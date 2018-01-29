@@ -46,7 +46,7 @@ require.config({
         'mousewheel' : 'https://mallmaverick.cdn.speedyrails.net/javascripts/mapsvg/jquery.mousewheel',
         'mapplic' : 'https://codecloud.cdn.speedyrails.net/sites/59bac7db6e6f644f22ba0000/text/javascript/1487363250000/mapplic',
         'hammer' : 'https://codecloud.cdn.speedyrails.net/sites/59bac7db6e6f644f22ba0000/text/javascript/1484859750000/hammer.min',
-        'mapplic-map' : 'https://preview-5a4bb6d36e6f6473fa0a0000.codecloudapp.com/mapplic.vue?noext'
+        'mapplic-map' : 'https://preview-5a6f4f346e6f645b4c090000.codecloudapp.com/mapplic.vue?noext'
     }
 });
 
