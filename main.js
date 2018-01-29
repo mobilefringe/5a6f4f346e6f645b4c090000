@@ -39,10 +39,10 @@ require.config({
         'vuex-router-sync': 'https://mmvue.codecloudapp.com/vuex-router-sync',
         'vue-lazy-load': 'https://unpkg.com/vue-lazyload/vue-lazyload',
         // Dependencies for Map //
-        'Raphael': 'https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min', //'http://mallmaverick.com/javascripts/mapsvg/raphael',
+        // 'Raphael': 'https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min', //'http://mallmaverick.com/javascripts/mapsvg/raphael',
         // 'mousewheel': 'https://mallmaverick.com/javascripts/mapsvg/jquery.mousewheel',
-        'mm_mapsvg': 'https://mmvue.codecloudapp.com/mallmaverick_svgmap',
-        'svg-map' : 'https://mmvue.codecloudapp.com/svg_map.vue?noext',
+        // 'mm_mapsvg': 'https://mmvue.codecloudapp.com/mallmaverick_svgmap',
+        // 'svg-map' : 'https://mmvue.codecloudapp.com/svg_map.vue?noext',
         'mousewheel' : 'https://mallmaverick.cdn.speedyrails.net/javascripts/mapsvg/jquery.mousewheel',
         'mapplic' : 'https://codecloud.cdn.speedyrails.net/sites/59bac7db6e6f644f22ba0000/text/javascript/1487363250000/mapplic',
         'hammer' : 'https://codecloud.cdn.speedyrails.net/sites/59bac7db6e6f644f22ba0000/text/javascript/1484859750000/hammer.min',
