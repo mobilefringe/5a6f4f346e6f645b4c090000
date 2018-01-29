@@ -224,18 +224,18 @@
                     "repos",
                     "findRepoByName"
                 ]),
-                property() {
-                    return this.$store.getters.getProperty;
-                },
-                timezone() {
-                    return this.$store.getters.getTimezone;
-                },
-                storesByAlphaIndex() {
-                    return this.$store.getters.storesByAlphaIndex;
-                },
-                storesByCategoryName() {
-                    return this.$store.getters.storesByCategoryName;
-                },
+                // property() {
+                //     return this.$store.getters.getProperty;
+                // },
+                // timezone() {
+                //     return this.$store.getters.getTimezone;
+                // },
+                // storesByAlphaIndex() {
+                //     return this.$store.getters.storesByAlphaIndex;
+                // },
+                // storesByCategoryName() {
+                //     return this.$store.getters.storesByCategoryName;
+                // },
                 allStores() {
                     return this.processedStores;
                 },
