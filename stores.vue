@@ -240,10 +240,10 @@
                     return this.processedStores;
                 },
                 floor1Stores() {
-                    return _.filter(this.allStores, ['z_coordinate', 1]);
+                    return _.filter(this.processedStores, ['z_coordinate', 1]);
                 },
                 floor2Stores() {
-                    return _.filter(this.allStores, ['z_coordinate', 2]);
+                    return _.filter(this.processedStores, ['z_coordinate', 2]);
                 },
                 allCategories() {
                     return this.$store.getters.processedCategories;
