@@ -246,7 +246,7 @@
                     return _.filter(this.processedStores, ['z_coordinate', 2]);
                 },
                 allCategories() {
-                    return this.$store.getters.processedCategories;
+                    return this..processedCategories;
                 },
                 getStoreSource() {
                     var mall_json = {};
