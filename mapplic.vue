@@ -186,6 +186,7 @@
                     };
                 },
                 initMapplic() {
+                    console.log($('#mapplic'))l
                     this.map = $('#mapplic').mapplic(this.options);
                     this.self = this.map.data('mapplic');
                     
