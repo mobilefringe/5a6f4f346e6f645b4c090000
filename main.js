@@ -46,7 +46,7 @@ require.config({
         'mousewheel' : 'https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min',
         'mapplic' : 'https://mmvue.codecloudapp.com/mapplic',
         'hammer' : 'https://codecloud.cdn.speedyrails.net/sites/59bac7db6e6f644f22ba0000/text/javascript/1484859750000/hammer.min',
-        'mapplic-map' : 'https://preview-5a6f4f346e6f645b4c090000.codecloudapp.com/mapplic.vue?noext'
+        'mapplic-map' : 'https://mmvue.codecloudapp.com//mapplic.vue?noext'
     }
 });
 
