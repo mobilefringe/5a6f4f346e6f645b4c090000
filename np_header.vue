@@ -142,7 +142,10 @@
                     'property',
                     'processedStores',
                     'route'
-                ])
+                ]),
+                searchList () {
+                    
+                }
             },
             methods: {
                 onOptionSelect(option) {
