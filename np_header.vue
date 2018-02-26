@@ -144,7 +144,7 @@
                     'route'
                 ]),
                 searchList () {
-                    
+                    return _.union(this.processedStores, [1, 2]);
                 }
             },
             methods: {
