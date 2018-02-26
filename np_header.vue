@@ -141,6 +141,9 @@
                 ...Vuex.mapGetters([
                     'property',
                     'processedStores',
+                    'processedPromos',
+                    'processedEvents',
+                    'processedJobs'
                     'route'
                 ]),
                 searchList () {
