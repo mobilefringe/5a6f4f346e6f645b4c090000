@@ -24,7 +24,7 @@ body, html, #__nuxt {
 }
 
 .spinner > div {
-  background-color: #fff;
+  background-color: #000;
   height: 100%;
   width: 6px;
   display: inline-block;
