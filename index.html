@@ -19,7 +19,7 @@
     </head>
     <body>
         <div id="app" v-cloak>
-            <np-loader v-if="!dataLoaded"></np-loader>
+            <loader v-if="!dataLoaded"></loader>
             <np-header :social_media="social_media" v-if="dataLoaded"></np-header>
             <router-view v-if="dataLoaded" class="content"></router-view>
             <np-footer :social_media="social_media" v-if="dataLoaded"></np-footer>
